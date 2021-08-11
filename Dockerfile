@@ -1,6 +1,6 @@
 # Dockerfile
 
-FROM node:lts-buster
+FROM node:16-slim
 
 RUN mkdir -p /opt/app
 WORKDIR /opt/app
